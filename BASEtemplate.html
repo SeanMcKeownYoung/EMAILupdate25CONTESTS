@@ -66,6 +66,12 @@
 
             SITEURL     (address of online newspaper)
 
+            assets/HEADLOGO.png   (HEADER LOGO)
+
+            assets/INTRO.gif   (ANIMATED APP INTRO)
+
+            REPLACEfavicon   (replace with the site favicon url)
+
 
         Contests Group Specific:  
         
@@ -73,47 +79,14 @@
             
             CONTESTURL
 
-            aaa   (replace with light branding color for css) 
-
-
-            *The toppers and footers have been copied from the SS templates so the below Finds aren't needed.
-
-        Site Specific:
-
-            SITEADDRESS   (physical address at bottom of Footer) 
-
-            SITEFAQURL   (URL to FAQs in Footer ribbon)
-
-            assets/HEADLOGO.png   (HEADER LOGO)
-
-            assets/INTRO.gif   (ANIMATED APP INTRO)
-
-            assets/FOOTERLOGO.png   (LOGO IN FOOTER)
-
-            REPLACEfavicon   (replace with the site favicon url)
-
-            APPAPPLE   (URL to Apple App Store download)  
-
-            APPGOOGLE   (URL to Google Play Store download)
-
-            3334445555   (Site Customer Service phone number - no dashes, just number)  
-
-            SITECONTACTSURL   (URL to Contacts in Footer ribbon)
-
-
-        TOPPER & FOOTER COPIED /// Group specific: 
-
-            ACCOUNTURL   (URL to activate account in Activate button and Footer ribbon)
-
-            DIGITALSERVICESEMAIL   (Help email in Footer ribbon and Buttons)
-
-            PRIVACYPOLICYURL   (Privacy policy in Footer ribbon)
+            STATE
 
             75FF00   (group color branding - Light)
 
+            59bd02   (group color branding - Mid)
+
             3D8500   (group color branding - Dark)
 
-            DOTCOM   (replace with the url of the dot.com, such as nj.com, etc)
 
         Other:  
 
@@ -140,7 +113,7 @@
         .hoverFooterBttn {-webkit-filter: opacity(80%);  filter: opacity(80%); transition: 0.4s;}
         .hoverFooterBttn:hover {-webkit-filter: opacity(100%);  filter: opacity(100%); transition: 0.4s;}
         :hover.helpButton {mix-blend-mode: normal !important;}
-        accentSite {color: #aaa !important}
+        accentSite {color: #75FF00 !important}
 		/* RESET STYLES */
 		img { border: 0; outline: none; text-decoration: none; }
 		table { border-collapse: collapse !important; }
@@ -291,7 +264,7 @@
 		/*INSERT ADDITIONAL MOBILE STYLES ABOVE THIS LINE*/
 		</style>		
 	</head>
-<body style="margin:0; padding:0; mso-line-height-rule: exactly; background-color:#3D8500; width: 100%;">
+<body style="margin:0; padding:0; mso-line-height-rule: exactly; background-color:#59bd02; width: 100%;">
 
 
 <center>
@@ -309,7 +282,7 @@
 		max-width:0px;
 		opacity:0;
 		overflow:hidden;">
-        Preheader Text replacement goes here. SectionTitle00, coming IpsumLorem&#8203;&nbsp;&#8203;00 to SITENAME<!--Z-->!
+        Read to win! You'll be entered in a drawing to win ALLPrizeText every day you read SITENAME<!--Z-->!
 		</td>
 	</tr>
 	<!-- END PREHEADER -->
@@ -362,7 +335,7 @@
                                 </td>
                             </tr>
                             <!--SPACER-->
-                            <tr><td height="25" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                            <tr><td height="0" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
 			            </td>
                         <!-- END LOGO DO NOT MOVE THIS!!!-->
                 <!-- START CONTEST CAMPAIGN -->
@@ -370,11 +343,11 @@
                         <td align="center" valign="top">
                             <table class="imgresize80 img" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
                                 <td align="center" valign="top">
-                                    <img src="https://placehold.co/800x1000.jpg" width="100%" height="auto" style="margin:0; padding:0; border:none;" border="0" alt="cover"/>
+                                    <img src="assets/2025_Q1_MARKETING illo.jpg" width="100%" height="auto" style="margin:0; padding:0; border:none;" border="0" alt="cover"/>
                                 </td>
                             </table>
                             <!--SPACER-->
-                            <tr><td height="30" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                            <tr><td height="10" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                         </td>
                         <!--END HERO-->
                         <!-- HEADLINE -->
@@ -389,7 +362,7 @@
                         <td align="center" valign="top">
                             <table class="mobile-200" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
                                 <td align="center" valign="top">
-								<p class="intro-text-resize" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 16px; line-height: 26px; color: #e7e7e7; text-wrap: balance;"><strong>Every day you read SITENAME, you'll be entered in a drawing to win ALLPrizeText.</strong></span> Reading every day from StartDate to EndDate will give you TotalDays chances to win!</p>
+								<p class="intro-text-resize" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 16px; line-height: 26px; color: #e7e7e7; text-wrap: balance;"><strong>Every day you read SITENAME<!--Z-->, you'll be entered in a drawing to win ALLPrizeText.</strong></span> Reading every day from StartDate to EndDate will give you TotalDays chances to win!</p>
                                 </td>
                             </table>
                             <!--SPACER-->
@@ -549,7 +522,7 @@
                             <!-- START FINEPRINT -->
                                     <table class="mobile-200" role="presentation" width="500" cellpadding="0" cellspacing="0" border="0">
                                         <td align="center" valign="top">
-                                            <p class="small-text-resize mobile-300" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; font-size: 11px; line-height: 16px; color: #e7e7e7; text-wrap: balance;"><strong>Contest Details. </strong> No Purchase Necessary. Visit <a rel="noopener" href="https://CONTESTURL" target="_blank" style="color:#e7e7e7; text-decoration:underline;">advancelocalsweepstakes.com/cleveland</a> for full rules. Starts 12:01 AM ET StartDate, YearText and ends 11:59 PM ET EndDate, YearText. Open to legal residents of STATE 18 or older who are subscribers of SITENAME as of SubDate, YearText except employees of Sponsor, their immediate families and those living in the same household. Odds of winning depend on the number of entries received. Void outside of STATE and where prohibited. A.R.V. of ALLPrizeText. Sponsor: Advance Local Media LLC.</p>
+                                            <p class="small-text-resize mobile-300" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; font-size: 11px; line-height: 16px; color: #e7e7e7; text-wrap: balance;"><strong>Contest Details. </strong> No Purchase Necessary. Visit <a rel="noopener" href="https://CONTESTURL" target="_blank" style="color:#e7e7e7; text-decoration:underline;">CONTESTURL</a> for full rules. Starts 12:01 AM ET StartDate, YearText and ends 11:59 PM ET EndDate, YearText. Open to legal residents of STATE 18 or older who are subscribers of SITENAME as of SubDate, YearText except employees of Sponsor, their immediate families and those living in the same household. Odds of winning depend on the number of entries received. Void outside of STATE and where prohibited. A.R.V. of ALLPrizeText. Sponsor: Advance Local Media LLC.</p>
                                         </td>
                                         <!--SPACER-->
                                         <tr><td height="30" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
@@ -569,9 +542,9 @@
 <!-- !!!!!! START SITE LOCALIZATION !!!!!! -->
 <!-- !!!!!! START SITE LOCALIZATION !!!!!! -->
 
-<!-- START FULL 100 -->
+<!-- START FULL 100 FOOTER -->
 <section class="footer">
-    <table class="mobile-320 body" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#3D8500;" bgcolor="#3D8500">
+    <table class="mobile-320 body" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#59bd02;" bgcolor="#3D8500">
 		<tr>
 			<td align="center" valign="top">
                 <!-- START FOOTER MAIN 600-->
