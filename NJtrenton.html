@@ -29,7 +29,7 @@
 		/* Outlines the grids, remove when sending
 		table td { border: 1px solid rgb(0, 217, 255); }*/
 
-/* ONLINE SPECIAL SECTION MARKETING TEXT  *
+/* ONLINE CONTEST MARKETING TEXT  *
 			HOW TO: Select the exact text below (below its description and notes), go to the 'Edit' pulldown above and then 'Find in Files' - you will see all instances of that text at right. There should be 20 files highlighted. Now go to 'Edit' and 'Replace in Files'. Paste your new edited content in the field below the text on the right side rail. Click the icon directly to the right of the lower field where you've pasted your new text (it sort of looks like some files with something popping out of the top.) Doing that commits that change across all of the files in this pack of emails.
 
 			PUBLICATION DATE:  Notes: Use &#8203 between your comma and date to keep it from breaking.
@@ -42,28 +42,22 @@
 				Preheader Text replacement goes here.  
 
 			HEADLINE OF CAMPAIGN:  Notes: Text between the accent2 designators will be highlighted. Use the tag <br> to strategically break text into multiple lines. Place <br> between the words you want to force break.
-				Call to <accent2>action!</accent2>   
+				Read to <accentSite>win!</accentSite>  
 
 			INTRO: Notes: Replace 'Strong intro lines intro intro intro' with the text you are bolding at the beginning of the Intro.
 				<strong>Strong intro lines intro intro intro.</strong> Ur autemos sinvellant, simusan ditaquunt repudit, simolup tatur, coribusae qui demporum qui res alitas sequi blabo. Et harum qui omnihiciae odi volut hicatur epudit, que et ex et fugiae ilis utem re, voluptat ex esciis consequ.
 		
 
-/* ONLINE SPECIAL SECTION MARKETING IMAGE  *
+/* ONLINE CONTEST MARKETING IMAGE  *
 			HOW TO: Is this a normal tablet cover (the image has been placed in the tablet frame in Photoshop)? or is this an Illustration. An illustration (or non-tablet animation) shouldn't have the drop shadow that works nicely with the tablet style. If it's a normal tablet, start at step 2, If it isn't, start at step 1. 
 			
-				STEP 1: Replacing the img drop shadow. Just like above, select the text below (that starts with <img and ends with "/>
-				go to 'Edit' then 'Select in Files' to select those lines throughout the email template set. Proceed.
-					<img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/COVER-ANIMATED.gif" height="600px" width="auto" style="margin:0; padding:0; border:none; filter: drop-shadow(-3px 3px 10px rgba(0, 0, 0, 0.35));" border="0" alt="cover"/>
-				Select the text below and paste in the field using 'Replace in Text'.
-					<img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/COVER-ANIMATED.gif" height="600px" width="auto" style="margin:0; padding:0; border:none;" border="0" alt="cover"/> -->
-
-				STEP 2: Replacing the image with the new campaign image. 
+            Replacing the image with the new campaign image. 
 				Use the instuctions above, to 'Find in Files' and 'Replace in Files'. Use this the line below to 'Find in Files'. Replace it with the url of your new art (that you've loaded into SailThru) by using 'Replace in Files'. (*be sure that your url is correct, leaving off an h at the beginning or an f at the end means it won't load.)
-				https://media.sailthru.com/composer/images/sailthru-prod-6fj/COVER-ANIMATED.gif
+            https://placehold.co/800x1000.jpg
 
 /* TEMPLATE LOCALIZATION - ONLY USE THIS TO UPDATE TEMPLATE LOCALIZATIONS - CQ WITH SEAN  *
 
-        Site Specific:
+        Contests Site Specific:
 
             The Times    (name of site)
                         (replace with the name of the site only for digital only products. Don't add 'online')
@@ -72,40 +66,27 @@
 
             reader.tt.nj.com     (address of online newspaper)
 
-            485 Route 1S Bldg. E, Suite 300 Iselin, NJ 08830-3009   (physical address at bottom of Footer) 
-
-            https://www.nj.com/interact/page/contact_us_information_user_services_and_more_on_njcom.html   (URL to Contacts in Footer ribbon)
-
-            nj.com/printsubscription/faq/TT   (URL to FAQs in Footer ribbon)
-
             https://media.sailthru.com/composer/images/bazh/wxt6ga5j/hwm/b0u/ftx/HEADLOGO_NJ_Trenton.png   (HEADER LOGO)
 
             https://media.sailthru.com/composer/images/bazh/wxt6ga5j/v7k/0zj/net/INTRO_NJ_Trenton.gif   (ANIMATED APP INTRO)
 
-            https://media.sailthru.com/composer/images/bazh/wxt6ga5j/si3/zoz/8ph/FOOTERLOGO_NJ_Trenton.png   (LOGO IN FOOTER)
-
-            https://media.sailthru.com/composer/images/bazh/wxt6ga5j/x00/z82/krb/FAVICON_NJ_Trenton.png   (replace with the site favicon url)
-
-            https://apps.apple.com/us/app/the-times-of-trenton/id1226062340   (URL to Apple App Store download)  
-
-            https://play.google.com/store/apps/details?id=com.nj.timesoftrenton   (URL to Google Play Store download)
-
-            18006933548   (Site Customer Service phone number - no dashes, just number)  
+            REPLACEfavicon   (replace with the site favicon url)
 
 
-        Group specific: 
+        Contests Group Specific:  
+        
+            myaccount.nj.com   (URL to activate account in Activate button and Footer ribbon) 
+            
+            advancelocalsweepstakes.com/nj
 
-            myaccount.nj.com   (URL to activate account in Activate button and Footer ribbon)
-
-            digitalservice@nj.com   (Help email in Footer ribbon and Buttons)
-
-            https://www.nj.com/privacy-policy/   (Privacy policy in Footer ribbon)
+            New Jersey
 
             75FF00   (group color branding - Light)
 
+            59bd02   (group color branding - Mid)
+
             3D8500   (group color branding - Dark)
 
-            NJ.com   (replace with the url of the dot.com, such as nj.com, etc)
 
         Other:  
 
@@ -132,6 +113,7 @@
         .hoverFooterBttn {-webkit-filter: opacity(80%);  filter: opacity(80%); transition: 0.4s;}
         .hoverFooterBttn:hover {-webkit-filter: opacity(100%);  filter: opacity(100%); transition: 0.4s;}
         :hover.helpButton {mix-blend-mode: normal !important;}
+        accentSite {color: #75FF00 !important}
 		/* RESET STYLES */
 		img { border: 0; outline: none; text-decoration: none; }
 		table { border-collapse: collapse !important; }
@@ -335,82 +317,75 @@
         </table>
 	    <!-- !!!!!! END PREHEAD VISIBLE !!!!!! -->
    
-        <!-- !!!!!! START BODY !!!!!! -->
-		<table class="mobile-320 body" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#121212;" bgcolor="#121212">
-			<tr>
-				<td align="center" valign="top">
-				    <table class="mobile-320 inset" role="presentation" width="600" style="background-color:#1C1E22;" bgcolor="#1C1E22" cellpadding="0" cellspacing="0" border="0">
-                        <!-- START LOGO -->
-			            <td align="center" valign="top">
-                        <!--SPACER--><tr><td height="40" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
-                        <tr>
-                            <td class="imgresize80 img" align="center" valign="top">
-                                <a rel="noopener" href="https://reader.tt.nj.com" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/hwm/b0u/ftx/HEADLOGO_NJ_Trenton.png" width="300" style="margin:0; padding:0; border:none; display:block;" border="0" alt="The Times online logo" /></a>
-                            </td>
-                        </tr>
-                        <!--SPACER--><tr><td height="25" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
-			            </td>
-                        <!-- END LOGO -->
-                        <!-- START DECK -->
-                        <td align="center" valign="top">
-                               <table class="mobile-200" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
-                               <tr>
-                                   <td align="center" valign="top">
-                                      <div style="display: inline-block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 24px; text-align: center; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; text-wrap: balance; color: #e7e7e7;"> 
-                                   <span> Read SectionTitle00, <nobr>IpsumLorem&#8203;&nbsp;&#8203;00</nobr> in <nobr>The Times<!--Z-->.</nobr></span>
-                                      </div>
-                                   </td>
-                               </tr>
-                               </table>
-                               <!--SPACER--><tr><td height="25" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
-                           </td>
-                        <!-- END DECK -->
-                        <!-- START HERO -->
-                        <tr>
-                            <td align="center" valign="top">
-                            <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
-                                <tr>
-                                    <td align="center" class="imgresize80 img">
-                                <!-- IF IMAGE IS AN ILLUSTRATION THAT SHOULDN'T HAVE A DROP SHADOW, REPLACE THE LINES BELOW WITH THIS: 
-                                     <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/COVER-ANIMATED.gif" height="600px" width="auto" style="margin:0; padding:0; border:none;" border="0" alt="cover"/> -->
-                                        <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/COVER-ANIMATED.gif" width="100%" height="auto" style="margin:0; padding:0; border:none; filter: drop-shadow(-3px 3px 10px rgba(0, 0, 0, 0.35));" border="0" alt="cover"/>
-                                    </td>
-                              <!--SPACER--><tr><td height="25" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
-                                </tr>
-                            </table>
-                            </td>
-                        </tr>
-                        <!-- END HERO -->
-
-
+    <!-- !!!!!! START WIDE BODY !!!!!! -->
+	<table class="mobile-320 body" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#121212;" bgcolor="#121212">
+		<tr>
 			<td align="center" valign="top">
-					<!-- HEAD ALIGNMENT TABLE *DESIGNER: use <br> to strategically force break the head into two lines* *DESIGNER: you're free to change font-style (in 'style' next to 'class') to 'italic' from 'normal' to use italic version of font. It's purely a stylistic alternative available for situations that call for a different touch'-->
-				<table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
-					<td align="center" valign="top">
-								<h1 class="h1-text-resize mobile-280" style="font-family: 'lust', Georgia, serif; font-weight: 700; font-style: normal; display: inline-block; font-size: 50px; line-height: 50px; color: #e7e7e7; letter-spacing: -0.25px; -webkit-font-smoothing: antialiased; font-kerning: normal;">
-									<span style="color: #e7e7e7;"><font color="#e7e7e7" <font face="'lust', Georgia, serif">Call to <accent2>action!</accent2></font></span></h1>
-                            </td>
-                            <!-- SPACER BELOW HEADLINE -->
-				                <tr>
-					                <td height="10" style="font-size:10px; line-height:1;">&nbsp;</td>
-				                </tr>
-                                <td align="center" valign="top">
-								    <p class="intro-text-resize" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 16px; line-height: 26px; color: #e7e7e7; text-wrap: balance;"><strong>Strong intro lines intro intro intro.</strong> Ur autemos sinvellant, simusan ditaquunt repudit, simolup tatur, coribusae qui demporum qui res alitas sequi blabo. Et harum qui omnihiciae odi volut hicatur epudit, que et ex et fugiae ilis utem re, voluptat ex esciis consequ.</p>
+                    
+            <!-- !!!!!! START BODY !!!!!! -->
+				<table class="mobile-320 inset" role="presentation" width="600" style="background-color:#1C1E22;" bgcolor="#1C1E22" cellpadding="0" cellspacing="0" border="0">
+                        
+                        <!-- START LOGO DO NOT MOVE THIS!!!-->
+			            <td align="center" valign="top">
+                            <!--SPACER-->
+                            <tr><td height="40" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                            <tr>
+                                <td class="imgresize80 img" align="center" valign="top">
+                                    <a rel="noopener" href="https://reader.tt.nj.com" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/hwm/b0u/ftx/HEADLOGO_NJ_Trenton.png" width="300" style="margin:0; padding:0; border:none; display:block;" border="0" alt="The Times online logo" /></a>
                                 </td>
-                            <!-- SPACER BELOW INTRO --><tr><td height="30" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
-                                    <!-- BUTTON -->
-                                    <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
-                                        <td align="center" valign="top">
-                                            <table class="mobile-200" role="presentation" width="200" cellpadding="0" cellspacing="0" border="0">
-                                                <tbody><tr>
-                                                     <td align="center" style="font-family: Helvetica, Arial, sans-serif; background-color:#1C1E22; color:#ffffff; font-weight: bold; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.5px; font-size:12px;"><a href="https://reader.tt.nj.com" target="_blank" class="button"  style="padding:9px 4px; min-width:86px; display:block; text-decoration:none; text-align:center; font-size:12px; color:#ffffff; background:#1C1E22; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; border: 2px solid #ffffff;"><font style="color:#ffffff;">Explore!</font></a></td>
-                                                </tr></tbody>
-                                            </table>
-                                            <!--SPACER BELOW BUTTON--><tr><td height="70" style="font-size:10px; line-height:1;">&nbsp;</td></tr> 
-                                        </td>
-                                    <!-- END BUTTON -->
-                                    <!-- SUBSCRIBER IMAGE -->
-                                    <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
+                            </tr>
+                            <!--SPACER-->
+                            <tr><td height="25" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+			            </td>
+                        <!-- END LOGO DO NOT MOVE THIS!!!-->
+                <!-- START CONTEST CAMPAIGN -->
+                        <!--HERO-->
+                        <td align="center" valign="top">
+                            <table class="imgresize80 img" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
+                                <td align="center" valign="top">
+                                    <img src="https://placehold.co/800x1000.jpg" width="100%" height="auto" style="margin:0; padding:0; border:none;" border="0" alt="cover"/>
+                                </td>
+                            </table>
+                            <!--SPACER-->
+                            <tr><td height="30" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                        </td>
+                        <!--END HERO-->
+                        <!-- HEADLINE -->
+					    <td align="center" valign="top">
+							    <h1 class="h1-text-resize mobile-280" style="font-family: 'lust', Georgia, serif; font-weight: 700; font-style: normal; display: inline-block; font-size: 50px; line-height: 50px; color: #e7e7e7; letter-spacing: -0.25px; -webkit-font-smoothing: antialiased; font-kerning: normal;">
+							    <span style="color: #e7e7e7;"><font color="#e7e7e7" <font face="'lust', Georgia, serif">Read to <accentSite>win!</accentSite>  </font></span></h1>
+                            <!--SPACER-->
+                            <tr><td height="15" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                        </td>
+                        <!-- END HEADLINE -->
+                        <!-- INTRO-->
+                        <td align="center" valign="top">
+                            <table class="mobile-200" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
+                                <td align="center" valign="top">
+								<p class="intro-text-resize" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 16px; line-height: 26px; color: #e7e7e7; text-wrap: balance;"><strong>Every day you read The Times<!--Z-->, you'll be entered in a drawing to win ALLPrizeText.</strong></span> Reading every day from StartDate to EndDate will give you TotalDays chances to win!</p>
+                                </td>
+                            </table>
+                            <!--SPACER-->
+                            <tr><td height="30" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                        </td>
+                        <!-- END INTRO-->
+                        <!-- BUTTON -->
+                        <td align="center" valign="top">
+                            <table class="mobile-200" role="presentation" width="200" cellpadding="0" cellspacing="0" border="0">
+                                <tbody><tr>
+                                    <td align="center" style="font-family: Helvetica, Arial, sans-serif; background-color:#1C1E22; color:#ffffff; font-weight: bold; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.5px; font-size:12px;"><a href="https://reader.tt.nj.com" target="_blank" class="button"  style="padding:9px 4px; min-width:86px; display:block; text-decoration:none; text-align:center; font-size:12px; color:#ffffff; background:#1C1E22; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; border: 2px solid #ffffff;"><font style="color:#ffffff;">Explore!</font></a></td>
+                                </tr></tbody>
+                            </table>
+                            <!--SPACER-->
+                            <tr><td height="70" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                        </td>
+                        <!-- END BUTTON -->
+                <!-- END CONTEST CAMPAIGN -->
+                <!-- START ONLINE NEWSPAPER BOILERPLATE -->
+			            <td align="center" valign="top">
+                            <!-- SUBSCRIBER SECTION -->
+                            <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
+                                    <!-- START SUBSCRIBER IMAGE -->
                                         <td align="center" valign="top">
                                             <table class="mobile-200" role="presentation" width="200" cellpadding="0" cellspacing="0" border="0">
                                                 <tr>
@@ -436,7 +411,8 @@
                                             <td align="center" valign="top">
                                                 <p class="intro-text-resize" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 14px; line-height: 24px; color: #e7e7e7; text-wrap: balance;"><strong>All customers of The Times</strong> can access the online newspaper & many extras at no additional cost. Click below to activate your account.</p>
                                             </td>
-                            <!-- SPACER BELOW INTRO --><tr><td height="30" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                                    <!-- SPACER -->
+                                     <tr><td height="30" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                     <!-- BUTTON -->
                                     <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
                                         <td align="center" valign="top">
@@ -449,13 +425,13 @@
                                         </td>
                                     <!-- END BUTTON -->
                                 </table> 
-                                <!-- ONLY IN THE ONLINE NP GROUP -->   
-                                    <!-- ONLY ONLINE IMAGE -->
-                                    <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
+                                <!-- ONLY IN THE ONLINE NP GROUP -->  
+                                <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
+                                        <!-- ONLY ONLINE IMAGE -->
                                         <td align="center" valign="top">
                                             <table class="mobile-200" role="presentation" width="200" cellpadding="0" cellspacing="0" border="0">
-                                                    <td align="center" valign="top">
-                                                        <img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/m6w/gmg/f42/MOBILEonly.gif" width="200" height="160" style="margin:0; padding:0; border:none; display:block;" border="0" alt="Only in the The Times online.">
+                                                <td align="center" valign="top">
+                                                    <img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/m6w/gmg/f42/MOBILEonly.gif" width="200" height="160" style="margin:0; padding:0; border:none; display:block;" border="0" alt="Only in the The Times online.">
                                                     <hr width="200" style="padding: 0%; margin: 0%; " color="#e7e7e7" size="1px"/>
                                                 </td>
                                             </table>
@@ -472,7 +448,7 @@
                                              <td height="10" style="font-size:10px; line-height:1;">&nbsp;</td>
                                          </tr>
                                      </td>
-                             <!-- ONLY CHATTER -->
+                                    <!-- ONLY CHATTER -->
                                      <td align="center" valign="top">
                                          <p style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 14px; line-height: 24px; color: #e7e7e7; text-wrap: balance;">
                                              <highlight><bulletHide>&nbsp;&#x25cf;&nbsp;</bulletHide>Later sports scores</highlight> 
@@ -484,9 +460,9 @@
                                              <highlight> <bullet>&nbsp;&#x25cf;&nbsp;</bullet>NYT Book Review</highlight>  
                                          </p>
                                      </td>
-                            <!-- SPACER BELOW ONLY TEXT --><tr><td height="50" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                                    <!-- SPACER BELOW ONLY TEXT -->
+                                     <tr><td height="50" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                     <!-- ADDITIONAL IMAGE -->
-                                    <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
                                         <td align="center" valign="top">
                                             <table class="mobile-200" role="presentation" width="200" cellpadding="0" cellspacing="0" border="0">
                                                 <tr>
@@ -519,7 +495,8 @@
                                                     <highlight> <bullet>&nbsp;&#x25cf;&nbsp;</bullet>Bookmark favorite articles</highlight>  
                                                 </p>
                                             </td>
-                            <!-- SPACER BELOW ADDITIONAL TEXT --><tr><td height="30" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                                    <!-- SPACER BELOW ADDITIONAL TEXT -->
+                                     <tr><td height="30" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                     <!-- BUTTON -->
                                     <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
                                         <td align="center" valign="top">
@@ -533,21 +510,32 @@
                                         </td>
                                     <!-- END BUTTON -->
                                 </table> 
-                            <!-- BODY SPACER -->
-                                    <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
-                                        <td align="center" valign="top">
-                                            <!--SPACER--><tr><td height="30" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
-                                        </td>
-                                    <!-- END BUTTON -->
+                            <!-- END ONLINE NEWSPAPER BOILERPLATE -->
+                            <!-- START BODY SPACER -->
+                            <table class="mobile-200" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
+                                <td align="center" valign="top">
+                                    <tr><td height="20" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                                </td>
+                                <!--SPACER-->
                             </table>
-                            </td>
-                            </tr>
-            </table>
-        </td>
-<!-- !!!!!! END BODY !!!!!! -->
-    </tr>
-</table>
+                            <!-- END BODY SPACER -->
+                            <!-- START FINEPRINT -->
+                                    <table class="mobile-200" role="presentation" width="500" cellpadding="0" cellspacing="0" border="0">
+                                        <td align="center" valign="top">
+                                            <p class="small-text-resize mobile-300" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; font-size: 11px; line-height: 16px; color: #e7e7e7; text-wrap: balance;"><strong>Contest Details. </strong> No Purchase Necessary. Visit <a rel="noopener" href="https://advancelocalsweepstakes.com/nj" target="_blank" style="color:#e7e7e7; text-decoration:underline;">advancelocalsweepstakes.com/nj</a> for full rules. Starts 12:01 AM ET StartDate, YearText and ends 11:59 PM ET EndDate, YearText. Open to legal residents of New Jersey 18 or older who are subscribers of The Times as of SubDate, YearText except employees of Sponsor, their immediate families and those living in the same household. Odds of winning depend on the number of entries received. Void outside of New Jersey and where prohibited. A.R.V. of ALLPrizeText. Sponsor: Advance Local Media LLC.</p>
+                                        </td>
+                                        <!--SPACER-->
+                                        <tr><td height="30" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                                    </table>
+                            <!-- END FINEPRINT -->
+            <!-- END BODY -->
+                </table>
+            </td>
+        </tr>
+    </table>
 </section>
+<!-- !!!!!! END BODY !!!!!! -->
+
 
 
 <!-- !!!!!! START SITE LOCALIZATION !!!!!! -->
